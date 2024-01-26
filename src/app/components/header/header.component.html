@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>{{ title }}</h2>
+  <app-button
+    color="{{showAddTask? 'accent': 'primary'}}"
+    text="{{ showAddTask ? 'Close' : 'Open' }}"
+    (btnClick)="toggleForm()"
+  ></app-button>
+</div>

@@ -1,0 +1,16 @@
+<form *ngIf="showAddTask" (ngSubmit)="onSubmit()" class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Add Task</mat-label>
+      <input matInput placeholder="Learn DSA" name="taskName" [(ngModel)]="taskName">
+    </mat-form-field>
+  
+    <mat-form-field class="example-full-width">
+        <mat-label>Add Date and Time</mat-label>
+        <input matInput placeholder="Jan 13, 2024 12:35AM" name="taskDate" [(ngModel)]="taskDate">
+    </mat-form-field>
+    <p><span><input type="checkbox" name="reminder" [(ngModel)]="isImportant"></span>Important </p>
+
+    <button mat-raised-button color="primary" type="submit">Add Task</button>
+
+</form>
+  

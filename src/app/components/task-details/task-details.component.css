@@ -1,0 +1,15 @@
+.class1{
+    display: flex;
+    width: 400px;
+    flex-direction:column;
+    margin: 0 auto;
+}
+.my-class{
+    background-color: rgb(183, 183, 183);
+    height: 60px;
+    padding: 8px 30px;
+    margin: 8px 0;
+}
+.other-class{
+    border-left: greenyellow;
+ }

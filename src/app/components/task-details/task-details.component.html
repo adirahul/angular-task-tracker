@@ -1,0 +1,11 @@
+<div class="class1">
+  <div [ngClass]="{ 'my-class': isMyClass }">
+    <h4>
+      {{ task.name }}
+      <span style="margin-left: 80px; cursor: pointer"
+        ><fa-icon [icon]="faTimes" (click)="onClickDelete(task)"></fa-icon
+      ></span>
+    </h4>
+    <p>{{ task.time }}</p>
+  </div>
+</div>
